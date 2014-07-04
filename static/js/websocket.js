@@ -19,7 +19,7 @@ $(document).ready(function () {
             $("#chatbox li").first().before("<li>" + data.User + " left the chat room.</li>");
             break;
         case 2: // MESSAGE
-            $("#chatbox li").first().before("<li><b>" + data.User + "</b>: " + data.Content + "</li>");
+            $("#chatbox li").first().before("<li><b><a href='/pm/to?uname=" + data.User + "'>" + data.User + "</a></b>: " + data.Content + "</li>");
             break;
         }
     };

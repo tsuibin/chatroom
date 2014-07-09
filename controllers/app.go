@@ -17,8 +17,8 @@ package controllers
 import (
 	"strings"
 
-	"github.com/astaxie/beego"
-	"github.com/beego/i18n"
+	"github.com/cazool/beego"
+	"github.com/cazool/i18n"
 )
 
 var langTypes []string // Languages that are supported.

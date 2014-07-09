@@ -18,10 +18,10 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/astaxie/beego"
-	"github.com/gorilla/websocket"
+	"github.com/cazool/beego"
+	"github.com/cazool/websocket"
 
-	"../models"
+	"github.com/tsuibin/chatroom/models"
 )
 
 // WebSocketController handles WebSocket requests.

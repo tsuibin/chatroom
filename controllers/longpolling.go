@@ -15,7 +15,7 @@
 package controllers
 
 import (
-	"../models"
+	"github.com/tsuibin/chatroom/models"
 )
 
 // LongPollingController handles long polling requests.
